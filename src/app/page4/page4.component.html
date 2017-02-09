@@ -1,0 +1,53 @@
+<div id="bg4">
+  <div id="icons">
+  <img id="img1" class="pull-left" src="../assets/images/tata-motors.png" >
+  <img id="img2" class="pull-right" src="../assets/images/TATA-logo.png" >
+  </div>
+  <div class="navig">
+    <div class=" text left"><a (click)="clickCount('features')"  [routerLink]="['../../page2',userid]">FEATURES</a></div>
+    <div class=" text center"><a (click)="clickCount('watchvideo')" [routerLink]="['../../page3',userid]" >WATCH VIDEO</a></div>
+    <div class=" text right selected"><a (click)="clickCount('testdrive')" class="act" [routerLink]="['../../page4',userid]" >BOOK A TEST DRIVE</a></div>
+  </div>
+  <div id="p4body">
+    <p class="frm-head">FILL THE FORM BELOW TO<br>
+    BOOK A TEST DRIVE</p>
+
+    <form #f="ngForm" novalidate (ngSubmit)="save(f.value, f.valid)">
+
+      <div class="form-group">
+      <input class="form-control transparent-input" type="text" placeholder="Name" name="username" [ngModel]="user.username" 
+        required #username="ngModel">
+      <small [hidden]="username.valid || (username.pristine && !f.submitted)" class="text-danger">
+        Name is required .
+      </small>
+    </div>
+
+    <div class="form-group">
+      <input class="form-control transparent-input" type="number" placeholder="Contact Number" name="number" [ngModel]="user.number" 
+        required #number="ngModel">
+      <small [hidden]="number.valid || (number.pristine && !f.submitted)" class="text-danger">
+        Contact Number is required
+      </small>
+    </div>
+
+    <div class="form-group">
+      <input class="form-control transparent-input" type="email" placeholder="Email ID" name="email" [ngModel]="user.email" 
+        required  #email="ngModel" pattern="^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$">
+      <small [hidden]="email.valid || (email.pristine && !f.submitted)" class="text-danger">
+        Email is required (Ex:<i>demo@example.com</i>).
+      </small>
+    </div>
+
+    <input type="image" name="submit" class="frm-submit" src="../assets/images/submit-button.png">
+
+    </form>
+
+
+    <img class="frm-img" src="../assets/images/Truck-03.png">
+  </div>
+  <div class="foot">
+      <img class="pull-left foot1" src="../assets/images/dimo.png">
+      <p class="xs-white" >*CONDITIONS APPLY*</p>
+      <img class="pull-right foot2" src="../assets/images/ULTRA-02.png">
+  </div>
+</div>
