@@ -1,1 +1,278 @@
-/* You can add global styles to this file, and also import other style files */
+.loader{
+    height: 10vh;
+    margin: 38vh 42vw;
+}
+.foot1{
+    height: 8vw;
+    margin: 4vw 0 0 3vw;
+}
+.foot2{
+    height: 10vw;
+    margin: -4vw 4vw 0 0;
+}
+.navig{
+    
+    position: absolute;
+    top: 9vh;
+    background: url(assets/images/TOP-STRIP.png) no-repeat;
+    background-size: 100% 100%;
+    min-width: 100vw;
+    height: 7vh;
+}
+#img1{
+    height: 1.5vh;
+    margin: 5vh 0 1vh 1vh;
+}
+#img2{
+    height: 5vh;
+    margin: 2vh;
+}
+
+.left{
+    position: absolute;
+    left: 4vw;
+    padding: 1.8vh 5vw 1.8vh 3vw;
+}
+.center{
+    position: absolute;
+    padding: 1.8vh 3vw 1.8vh 2vw;
+    left: 30vw;
+}
+.right{
+    position: absolute;
+    left: 60vw;
+    padding: 1.8vh 1vw 1.8vh 1vw;
+}
+.text{
+        color: white;
+    font-size: 1.8vh;
+    margin: 0.5vh;
+    font-family: Rockwell Bold;
+}
+.foot{
+    position: absolute;
+    top:90vh;
+    width: 100vw;
+}
+.xs-white{
+    color: white;
+    height: 2vw;
+    font-size: 2vw;
+    margin: 9vw 0px -6vw 0;
+}
+.cust-close{
+    font-size: 1.8vh;
+    color: black;
+    font-family: Zurich Bold;
+    margin: 1vh 1vh 0 0;
+}
+.close-span{
+ color: orange;
+}
+.modal-img{
+    height: 57.3vh;
+    width: 80vw;
+}
+a, a:hover {
+    text-decoration: none;
+    color: white;
+}
+.act{
+    display: block;
+    transform: skew(14deg);
+}
+@font-face{
+    font-family: "Rockwell Bold";
+    src: url(assets/images/ROCKB.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face{
+    font-family: "Zurich Bold";
+    src: url(assets/images/ZURCHBC.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face{
+    font-family: "Sans Semi Bold";
+    src: url(assets/images/OPENSANS-SEMIBOLD.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+#bg{
+    background: url(assets/images/Main-BG.png) no-repeat;
+     background-size: 100% 100%;
+    min-height: 100vh;
+    width:100vw;
+}
+#p1body{
+    position: absolute;
+    margin: 18vh 0 0 10vw;
+    font-family: Rockwell Bold;
+}
+.pg1ultra{
+    height: 10vw;
+}
+.sm-blk{
+    margin: 0.5vh 0 0 0;
+    font-size: 2.35vw;
+}
+.md-grey{
+        font-size: 4vw;
+    margin: 1vh 0 0 0;
+}
+
+.lg-orange{
+        color: orange;
+    font-size: 7vw;
+    line-height: 1.1;
+}
+.pg1truk{
+        height: 36vh;
+}
+
+
+#bg2{
+    background: url(assets/images/BG-02-.png) no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    width:100vw;
+}
+#truck{   
+    background: url(assets/images/Truck-02.png) no-repeat;
+    background-size: 100% 100%;
+    min-width: 95vw;
+    height: 60vh;
+}
+#p2body{
+    position: absolute;
+    margin: 30vh 0 0 5vw;
+}
+#p2img{
+height: 80vh;
+}
+#spot1{
+    position: absolute;
+    height: 8vw;
+    top: 5vh;
+    left: 57vw;
+}
+#spot2{
+        position: absolute;
+    height: 8vw;
+    top: 18vh;
+    left: 30vw;
+}
+#spot3{
+        position: absolute;
+    height: 8vw;
+    top: 24vh;
+    left: 47vw;
+}
+#spot4{
+        position: absolute;
+    height: 8vw;
+    top: 31vh;
+    left: 3vw;
+
+}
+#spot5{
+        position: absolute;
+    height: 8vw;
+    top: 49vh;
+    left: 55vw;
+}
+.custmodel{    
+    height: 60vh;
+    width: 80vw;
+    background-color: white;
+    margin: 20vh 10vw;
+}
+.sm-grey{
+    font-size: 3vw;
+    font-family: Rockwell Bold;
+    margin: 0vh 3vw 0vh 3vw;
+}
+
+.md-orange{
+    color: orange;
+    margin: -11vh 3vw 2vw 3vw;
+    font-size: 3.2vw;
+    font-family: Rockwell Bold;
+    line-height: 1.1;
+}
+
+
+
+
+
+#bg3{
+     background: url(assets/images/BG-03-.png) no-repeat;
+     background-size: 100% 100%;
+    min-height: 100vh;
+    width:100vw;
+}
+#p3body{
+    position: absolute;
+    margin: 25vh 0 0 5vw;
+     width: 90vw;
+}
+
+.pan{
+    height: 40vh;
+}
+
+
+
+#bg4{
+     background: url(assets/images/BG-04-.png) no-repeat;
+     background-size: 100% 100%;
+    min-height: 100vh;
+    width:100vw;
+}
+
+.selected{
+    background: orange;
+    transform: skew(-14deg);
+}
+.frm-head{
+    font-family: Rockwell Bold;
+    font-size: large;
+    color: #706f6f;
+}
+#p4body{
+    font-family: Sans Semi Bold;
+    position: absolute;
+    margin: 18vh 0 0 5vw;
+}
+.frm-submit{
+    max-width: 30vw;
+}
+.transparent-input{
+    background: transparent;
+    max-height: 5vh;
+}
+.frm-img{
+        width: 75vw;
+    margin-left: 10vw;
+}
+
+
+
+.thankyou{
+    font-family: Rockwell Bold;
+    margin-top: 5vh;
+    font-size: 5vw;
+    color: #706f6f;
+}
+#p4body{
+    font-family: Sans Semi Bold;
+    position: absolute;
+    margin: 18vh 0 0 5vw;
+}
+.frm-img{
+           width: 75vw;
+    margin: 5vh 0 0 15vw;
+}
