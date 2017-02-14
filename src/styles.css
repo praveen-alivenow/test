@@ -83,19 +83,19 @@ a, a:hover {
 }
 @font-face{
     font-family: "Rockwell Bold";
-    src: url(assets/images/ROCKB.ttf);
+    src: url(ROCKB.ttf);
     font-style: normal;
     font-weight: normal;
 }
 @font-face{
     font-family: "Zurich Bold";
-    src: url(assets/images/ZURCHBC.ttf);
+    src: url(ZURCHBC.ttf);
     font-style: normal;
     font-weight: normal;
 }
 @font-face{
     font-family: "Sans Semi Bold";
-    src: url(assets/images/OPENSANS-SEMIBOLD.ttf);
+    src: url(OPENSANS-SEMIBOLD.ttf);
     font-style: normal;
     font-weight: normal;
 }
